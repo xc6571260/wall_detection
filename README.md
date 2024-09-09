@@ -47,36 +47,6 @@
   - `save_folder/POI1/visualize/img1.JPG`
   - `save_folder/POI2/visualize/img3.JPG`
 
-## 安裝與使用
-
-### 環境需求
-
-- Python 3.x
-- 必要套件：
-  - `os`
-  - `csv`
-  - `json`
-  - `shutil`
-  - 其他 YOLOv8 與 Hough 直線偵測相關套件
-
-### 執行方式
-
-1. 將無人機影像資料放入 `ori_folder` 中。
-2. 執行主程式，系統將會進行 POI 影像篩選與預測，並將結果存入 `save_folder` 中。
-
-## 貢獻
-
-歡迎提出建議或提交貢獻。請參閱 `CONTRIBUTING.md` 以了解更多細節。
-
-## 聯絡資訊
-
-若有任何問題或需要支援，請聯絡 [你的名字] ([你的電子郵件])。
-
----
-
-感謝使用本系統！
-
-
 ## 程式說明
 
 ### 輸入
