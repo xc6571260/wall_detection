@@ -9,8 +9,11 @@ import torch
 import numpy as np
 import matplotlib.pyplot as plt
 from Line_predict.hough_transform import LinePredictor
+import os
 
-model_path = r"D:\champion\NTU_project\港研\YOLOv8\model\0817_YOLOv8n\best.pt"
+
+current_dir = os.path.dirname(__file__)
+model_path = os.path.join(current_dir, "YOLOv8_model", "best.pt")
 
 
 
