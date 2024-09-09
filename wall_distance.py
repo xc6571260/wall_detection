@@ -67,8 +67,8 @@ def main():
     6. 輸出為dict顯示預測完每個POI的結果，綠色為檢測通過，灰色為無檢測到物件，紅色為異常 {1:green,2:red,3:gray....}
     """
 
-    ori_folder = r"D:\champion\NTU_project\港研\資料集\20240429資料集\胸牆"
-    save_folder = r"D:\champion\NTU_project\港研\YOLOv8\YOLOv8_train\wall_detection\poi_5m"
+    ori_folder = r"..\example\UAV_img"
+    save_folder = r"..\example\save_folder/10"
 
     if not os.path.exists(save_folder):
         # If it doesn't exist, create it
