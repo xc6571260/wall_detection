@@ -26,7 +26,7 @@
     - **img/**: 儲存 POI1 相關影像檔案的資料夾。
       - **示例檔案**: `img1.JPG`, `img2.JPG`
     - **record/**: 儲存 POI1 相關記錄檔案的資料夾（JSON 格式）。
-      - **示例檔案**: `record1.json`, `record2.json`
+      - **示例檔案**: `img1.json`, `img2.json`
     - **visualize/**: 儲存篩選後影像的資料夾，用於可視化結果。
       - **示例檔案**: `img1.JPG`
   - **POI2/**: 儲存 POI2 相關資料的資料夾。
